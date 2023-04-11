@@ -1,0 +1,4 @@
+* kosterSnakemakescalablebioinformatics2012a
+:PROPERTIES:
+:NOTER_DOCUMENT: ../kosterSnakemakescalablebioinformatics2012a.pdf
+:END:

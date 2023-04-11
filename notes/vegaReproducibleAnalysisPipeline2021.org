@@ -1,0 +1,113 @@
+* vegaReproducibleAnalysisPipeline2021
+:PROPERTIES:
+:NOTER_DOCUMENT: ../vegaReproducibleAnalysisPipeline2021.pdf
+:END:
+** Skeleton
+*** Highlight on page 1
+:PROPERTIES:
+:NOTER_PAGE: (1 . 0.8864433333333334)
+:END:
+**** Contents
+If validated, these features
+have the potential to become behavioral phenotypes (2) or digital biomarkers (3–5).
+*** Highlight on page 2
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.08851566666666667)
+:END:
+**** Contents
+data format differences between and across device manufacturers
+and platforms, time granularity at which the data is analyzed,
+participants’ time zones, etc.
+*** Highlight on page 2
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.17190033333333332)
+:END:
+**** Contents
+there is no guarantee
+the development environment can be replicated as programming
+languages and libraries are updated.
+*** Highlight on page 2
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.5387933333333333)
+:END:
+**** Contents
+Such resources would
+enable researchers to reproduce or extend previous findings with
+minimal duplication of effort and with full transparency of the
+many decisions and assumptions underlying the extensive data
+cleaning and processing required to translate mobile sensor data
+into meaningful and actionable signals.
+*** Highlight on page 2
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.7012866666666666)
+:END:
+**** Contents
+personalized
+just-in-time interventions
+*** Highlight on page 2
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.8184523333333333)
+:END:
+**** Contents
+software tools to help
+researchers manage and make sense of mobile data in rigorous
+and reproducible ways remain less common.
+*** Highlight on page 2
+:PROPERTIES:
+:NOTER_PAGE: (2 . 0.8770356666666667)
+:END:
+**** Contents
+Behavioral feature extraction
+from mobile sensor data is an essential but time-consuming and
+nuanced task that needs to consider problems like missing data,
+*** Highlight on page 3
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.098351)
+:END:
+**** Contents
+The purpose of RAPIDS
+is to improve the rigor and efficiency of mobile sensing data
+analysis by addressing two problems.
+*** Highlight on page 3
+:PROPERTIES:
+:NOTER_PAGE: (3 . 0.8334186666666666)
+:END:
+**** Contents
+RAPIDS is an open-source collection of Python and R
+scripts that are executed by the Snakemake workflow manager
+(43) and organized based on the cookie cutter data science
+project structure (44).
+*** Highlight on page 4
+:PROPERTIES:
+:NOTER_PAGE: (4 . 0.8770356666666667)
+:END:
+**** Contents
+In RAPIDS, every sensor for every participant
+goes through the exact same processing in isolated steps with
+input and output files that can be inspected at any time.
+*** Highlight on page 5
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.08338433333333334)
+:END:
+**** Contents
+means that the workflow is efficient because an analysis step
+is only executed when its input or parameters change and, when
+this happens, any dependent step is automatically re-computed.
+*** Highlight on page 5
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.17190033333333332)
+:END:
+**** Contents
+this step-based structure allows
+researchers to execute their analysis workflows over multiple
+CPU cores or computer cluster nodes without modifying
+RAPIDS’ code.
+*** Highlight on page 5
+:PROPERTIES:
+:NOTER_PAGE: (5 . 0.36261666666666664)
+:END:
+**** Contents
+users perceived some inconsistency and a relevant learning
+curve which affected how confident they were using the system.
+
+** Notes
