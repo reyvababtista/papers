@@ -137,7 +137,8 @@
   year = {2019},
   month = jan,
   number = {arXiv:1812.10394},
-  eprint = {arXiv:1812.10394},
+  eprint = {1812.10394},
+  primaryclass = {cs, stat},
   publisher = {{arXiv}},
   urldate = {2023-03-27},
   abstract = {The rich set of sensors in smartphones and wearable devices provides the possibility to passively collect streams of data in the wild. The raw data streams, however, can rarely be directly used in the modeling pipeline. We provide a generic framework that can process raw data streams and extract useful features related to non-verbal human behavior. This framework can be used by researchers in the field who are interested in processing data from smartphones and Wearable devices.},
@@ -229,6 +230,17 @@
   file = {/Users/reyvababtista/Projects/Papers/guoDetectionOccludedRoad2019.pdf}
 }
 
+@article{hallIntroductionMultisensorData1997,
+  title = {An {{Introduction}} to {{Multisensor Data Fusion}}},
+  author = {Hall, David L and Llinas, James},
+  year = {1997},
+  journal = {PROCEEDINGS OF THE IEEE},
+  volume = {85},
+  number = {1},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/hallIntroductionMultisensorData1997.pdf}
+}
+
 @article{harrisResearchelectronicdata2009,
   title = {Research Electronic Data Capture ({{REDCap}})\textemdash{{A}} Metadata-Driven Methodology and Workflow Process for Providing Translational Research Informatics Support},
   author = {Harris, Paul A. and Taylor, Robert and Thielke, Robert and Payne, Jonathon and Gonzalez, Nathaniel and Conde, Jose G.},
@@ -315,6 +327,22 @@
   abstract = {Background: The vast majority of people worldwide have been impacted by coronavirus disease (COVID-19). In addition to the millions of individuals who have been infected with the disease, billions of individuals have been asked or required by local and national governments to change their behavioral patterns. Previous research on epidemics or traumatic events suggests that this can lead to profound behavioral and mental health changes; however, researchers are rarely able to track these changes with frequent, near-real-time sampling or compare their findings to previous years of data for the same individuals.},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/huckinsMentalHealthBehavior2020.pdf}
+}
+
+@article{jiangImprovedYOLOv52022,
+  title = {Improved {{YOLO}} v5 with Balanced Feature Pyramid and Attention Module for Traffic Sign Detection},
+  author = {Jiang, Linfeng and Liu, Hui and Zhu, Hong and Zhang, Guangjian},
+  editor = {Zhu, J.},
+  year = {2022},
+  journal = {MATEC Web of Conferences},
+  volume = {355},
+  pages = {03023},
+  issn = {2261-236X},
+  doi = {10.1051/matecconf/202235503023},
+  urldate = {2023-04-14},
+  abstract = {With the development of automatic driving technology, traffic sign detection has become a very important task. However, it is a challenging task because of the complex traffic sign scene and the small size of the target. In recent years, a number of convolutional neural network (CNN) based object detection methods have brought great progress to traffic sign detection. Considering the still high false detection rate, as well as the high time overhead and computational overhead, the effect is not satisfactory. Therefore, we employ lightweight network model YOLO v5 (You Only Look Once) as our work foundation. In this paper, we propose an improved YOLO v5 method by using balances feature pyramid structure and global context block to enhance the ability of feature fusion and feature extraction. To verify our proposed method, we have conducted a lot of comparative experiments on the challenging dataset Tsinghua-Tencent-100K (TT100K). The experimental results demonstrate that the mAP@.5 and mAP@.5:0.95 are improved by 1.9\% and 2.1\%, respectively.},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/jiangImprovedYOLOv52022.pdf}
 }
 
 @article{jiaoSurveyDeepLearningbased2019,
@@ -450,6 +478,21 @@
   abstract = {Traffic sign detection and recognition in the wild is a challenging task. Existing techniques are often incapable of detecting small or occluded traffic signs because of the scale variation and context loss, which causes semantic gaps between multiple scales. We propose a new traffic sign detection network (TSingNet), which learns scale-aware and context-rich features to effectively detect and recognize small and occluded traffic signs in the wild. Specifically, TSingNet first constructs an attention-driven bilateral feature pyramid network, which draws on both bottom-up and top-down subnets to dually circulate low-, mid-, and high-level foreground semantics in scale self-attention learning. This is to learn scaleaware foreground features and thus narrow down the semantic gaps between multiple scales. An adaptive receptive field fusion block with variable dilation rates is then introduced to exploit context-rich representation and suppress the influence of occlusion at each scale. TSingNet is end-to-end trainable by joint minimization of the scale-aware loss and multi-branch fusion losses, this adds a few parameters but significantly improves the detection performance. In extensive experiments with three challenging traffic sign datasets (TT100K, STSD and DFG), TSingNet outperformed state-of-the-art methods for traffic sign detection and recognition in the wild.},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/liuTSingNetScaleawarecontextrich2021.pdf}
+}
+
+@techreport{louDCYOLOv8SmallSize2023,
+  type = {Preprint},
+  title = {{{DC-YOLOv8}}: {{Small Size Object Detection Algorithm Based}} on {{Camera Sensor}}},
+  shorttitle = {{{DC-YOLOv8}}},
+  author = {Lou, Haitong and Duan, Xuehu and Guo, Junmei and Liu, Haiying and Gu, Jason and Bi, Lingyun and Chen, Haonan},
+  year = {2023},
+  month = apr,
+  institution = {{Engineering}},
+  doi = {10.20944/preprints202304.0124.v1},
+  urldate = {2023-04-14},
+  abstract = {Traditional camera sensors rely on human eyes for observation. However, the human eye is prone to fatigue when observing targets of different sizes for a long time in complex scenes, and human cognition is limited, which often leads to judgment errors and greatly reduces the efficiency. Target recognition technology is an important technology to judge the target category in camera sensor. In order to solve this problem, a small size target detection algorithm for special scenarios was proposed by this paper. Its advantage is that this algorithm not only has higher precision for small size target detection, but also can ensure that the detection accuracy of each size is not lower than the existing algorithm. In this paper, a new down-sampling method was proposed, which could better preserve the context feature information. The feature fusion network was improved to effectively combine shallow information and deep information. A new network structure was proposed to effectively improve the detection accuracy of the model. In terms of accuracy, it is better than: YOLOX, YOLOXR, YOLOv3, scaled YOLOv5, YOLOv7-Tiny and YOLOv8.Three authoritative public data sets were used in this experiment: a) On Visdron data sets (small size targets), DC-YOLOv8 is 2.5\% more accurate than YOLOv8. b) On Tinyperson data sets (minimal size targets), DC-YOLOv8 is 1\% more accurate than YOLOv8. c) On PASCAL VOC2007 data sets (Normal size target), DC-YOLOv8 is 0.5\% more accurate than YOLOv8.},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/louDCYOLOv8SmallSize2023.pdf}
 }
 
 @article{merikangasRealtimeMobileMonitoring2019,
@@ -629,7 +672,8 @@
   year = {2023},
   month = apr,
   number = {arXiv:2304.00501},
-  eprint = {arXiv:2304.00501},
+  eprint = {2304.00501},
+  primaryclass = {cs},
   publisher = {{arXiv}},
   urldate = {2023-04-10},
   abstract = {YOLO has become a central real-time object detection system for robotics, driverless cars, and video monitoring applications. We present a comprehensive analysis of YOLO's evolution, examining the innovations and contributions in each iteration from the original YOLO to YOLOv8. We start by describing the standard metrics and postprocessing; then, we discuss the major changes in network architecture and training tricks for each model. Finally, we summarize the essential lessons from YOLO's development and provide a perspective on its future, highlighting potential research directions to enhance real-time object detection systems.},
@@ -799,7 +843,8 @@
   year = {2023},
   month = jan,
   number = {arXiv:1905.05055},
-  eprint = {arXiv:1905.05055},
+  eprint = {1905.05055},
+  primaryclass = {cs},
   publisher = {{arXiv}},
   urldate = {2023-04-11},
   abstract = {Object detection, as of one the most fundamental and challenging problems in computer vision, has received great attention in recent years. Over the past two decades, we have seen a rapid technological evolution of object detection and its profound impact on the entire computer vision field. If we consider today's object detection technique as a revolution driven by deep learning, then back in the 1990s, we would see the ingenious thinking and long-term perspective design of early computer vision. This paper extensively reviews this fast-moving research field in the light of technical evolution, spanning over a quarter-century's time (from the 1990s to 2022). A number of topics have been covered in this paper, including the milestone detectors in history, detection datasets, metrics, fundamental building blocks of the detection system, speed-up techniques, and the recent state-of-the-art detection methods.},
