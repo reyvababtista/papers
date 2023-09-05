@@ -26,6 +26,27 @@
   howpublished = {https://build.microsoft.com/en-US/sessions/db3f4859-cd30-4445-a0cd-553c3304f8e2}
 }
 
+@article{arulkumaranBriefSurveyDeep2017,
+  title = {A {{Brief Survey}} of {{Deep Reinforcement Learning}}},
+  author = {Arulkumaran, Kai and Deisenroth, Marc Peter and Brundage, Miles and Bharath, Anil Anthony},
+  year = {2017},
+  month = nov,
+  journal = {IEEE Signal Process. Mag.},
+  volume = {34},
+  number = {6},
+  eprint = {1708.05866},
+  primaryclass = {cs, stat},
+  pages = {26--38},
+  issn = {1053-5888},
+  doi = {10.1109/MSP.2017.2743240},
+  urldate = {2023-09-05},
+  abstract = {Deep reinforcement learning is poised to revolutionise the field of AI and represents a step towards building autonomous systems with a higher level understanding of the visual world. Currently, deep learning is enabling reinforcement learning to scale to problems that were previously intractable, such as learning to play video games directly from pixels. Deep reinforcement learning algorithms are also applied to robotics, allowing control policies for robots to be learned directly from camera inputs in the real world. In this survey, we begin with an introduction to the general field of reinforcement learning, then progress to the main streams of value-based and policybased methods. Our survey will cover central algorithms in deep reinforcement learning, including the deep Q-network, trust region policy optimisation, and asynchronous advantage actor-critic. In parallel, we highlight the unique advantages of deep neural networks, focusing on visual understanding via reinforcement learning. To conclude, we describe several current areas of research within the field.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/arulkumaranBriefSurveyDeep2017.pdf}
+}
+
 @article{bangquanRealTimeEmbeddedTraffic2019,
   title = {Real-{{Time Embedded Traffic Sign Recognition Using Efficient Convolutional Neural Network}}},
   author = {Bangquan, Xie and Xiao Xiong, Weng},
@@ -39,6 +60,23 @@
   abstract = {Traffic sign recognition(TSR) based on deep learning is rapidly developing. Specifically, TSR contains two technologies, namely, traffic sign classification (TSC) and traffic sign detection (TSD). However, the challenge of TSR is to ensure its efficiency, which means adequate accuracy, generalization, and speed in real-time by a computationally limited platform. In this paper, we will introduce a new efficient TSC network called ENet (efficient network) and a TSD network called EmdNet (efficient network using multiscale operation and depthwise separable convolution). We used data mining and multiscale operation to improve the accuracy and generalization ability and used depthwise separable convolution (DSC) to improve the speed. The resulting ENet possesses 0.9 M parameters (1/15 the parameters of the start-of-the-art method) while still achieving an accuracy of 98.6 \% on the German Traffic Sign Recognition benchmark (GTSRB). In addition, we design EmdNet' s backbone network according to the principles of ENet. The EmdNet with the SDD Framework possesses only 6.3 M parameters, which is similar to MobileNet's scale.},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/bangquanRealTimeEmbeddedTraffic2019.pdf}
+}
+
+@misc{bankAutoencoders2021,
+  title = {Autoencoders},
+  author = {Bank, Dor and Koenigstein, Noam and Giryes, Raja},
+  year = {2021},
+  month = apr,
+  number = {arXiv:2003.05991},
+  eprint = {2003.05991},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {An autoencoder is a specific type of a neural network, which is mainly designed to encode the input into a compressed and meaningful representation, and then decode it back such that the reconstructed input is similar as possible to the original one. This chapter surveys the different types of autoencoders that are mainly used today. It also describes various applications and use-cases of autoencoders.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/bankAutoencoders2021.pdf}
 }
 
 @inproceedings{bayzidiTrafficSignClassifiers2022,
@@ -89,6 +127,23 @@
   abstract = {This paper outlines an innovative approach to the evaluation of a self-administered smartphone-based survey for the collection of travel behaviour data. For this approach, a traditional travel survey is modified to match mobile devices. The smartphone application ``SmartMo'' is designed in a multi-stage iterative development process. It is then implemented and evaluated through a number of field tests involving 97 participants. Results of the field evaluation will be discussed including the technical performance (e.g. secure data transfer and data management, energy consumption, map-matching), usability (e.g. comprehensibility, handling, joy of use) as well as user acceptance (e.g. willingness to participate, data protection and privacy). A brief overview of the SmartMo data collection system will also be provided.},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/bergerFieldEvaluationSmartphonebased2015.pdf}
+}
+
+@misc{brownLanguageModelsare2020,
+  title = {Language {{Models}} Are {{Few-Shot Learners}}},
+  author = {Brown, Tom B. and Mann, Benjamin and Ryder, Nick and Subbiah, Melanie and Kaplan, Jared and Dhariwal, Prafulla and Neelakantan, Arvind and Shyam, Pranav and Sastry, Girish and Askell, Amanda and Agarwal, Sandhini and {Herbert-Voss}, Ariel and Krueger, Gretchen and Henighan, Tom and Child, Rewon and Ramesh, Aditya and Ziegler, Daniel M. and Wu, Jeffrey and Winter, Clemens and Hesse, Christopher and Chen, Mark and Sigler, Eric and Litwin, Mateusz and Gray, Scott and Chess, Benjamin and Clark, Jack and Berner, Christopher and McCandlish, Sam and Radford, Alec and Sutskever, Ilya and Amodei, Dario},
+  year = {2020},
+  month = jul,
+  number = {arXiv:2005.14165},
+  eprint = {2005.14165},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {Recent work has demonstrated substantial gains on many NLP tasks and benchmarks by pre-training on a large corpus of text followed by fine-tuning on a specific task. While typically task-agnostic in architecture, this method still requires task-specific fine-tuning datasets of thousands or tens of thousands of examples. By contrast, humans can generally perform a new language task from only a few examples or from simple instructions \textendash{} something which current NLP systems still largely struggle to do. Here we show that scaling up language models greatly improves task-agnostic, few-shot performance, sometimes even reaching competitiveness with prior state-of-the-art finetuning approaches. Specifically, we train GPT-3, an autoregressive language model with 175 billion parameters, 10x more than any previous non-sparse language model, and test its performance in the few-shot setting. For all tasks, GPT-3 is applied without any gradient updates or fine-tuning, with tasks and few-shot demonstrations specified purely via text interaction with the model. GPT-3 achieves strong performance on many NLP datasets, including translation, question-answering, and cloze tasks, as well as several tasks that require on-the-fly reasoning or domain adaptation, such as unscrambling words, using a novel word in a sentence, or performing 3-digit arithmetic. At the same time, we also identify some datasets where GPT-3's few-shot learning still struggles, as well as some datasets where GPT-3 faces methodological issues related to training on large web corpora. Finally, we find that GPT-3 can generate samples of news articles which human evaluators have difficulty distinguishing from articles written by humans. We discuss broader societal impacts of this finding and of GPT-3 in general.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language},
+  file = {/Users/reyvababtista/Projects/Papers/brownLanguageModelsare2020.pdf}
 }
 
 @article{chatterjeeThisnewconversational2023,
@@ -155,6 +210,24 @@
   langid = {english},
   keywords = {Computer Science - Computation and Language},
   file = {/Users/reyvababtista/Projects/Papers/chengGPT4GoodData2023.pdf}
+}
+
+@misc{chenPix2seqLanguageModeling2022,
+  title = {Pix2seq: {{A Language Modeling Framework}} for {{Object Detection}}},
+  shorttitle = {Pix2seq},
+  author = {Chen, Ting and Saxena, Saurabh and Li, Lala and Fleet, David J. and Hinton, Geoffrey},
+  year = {2022},
+  month = mar,
+  number = {arXiv:2109.10852},
+  eprint = {2109.10852},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {We present Pix2Seq, a simple and generic framework for object detection. Unlike existing approaches that explicitly integrate prior knowledge about the task, we cast object detection as a language modeling task conditioned on the observed pixel inputs. Object descriptions (e.g., bounding boxes and class labels) are expressed as sequences of discrete tokens, and we train a neural network to perceive the image and generate the desired sequence. Our approach is based mainly on the intuition that if a neural network knows about where and what the objects are, we just need to teach it how to read them out. Beyond the use of task-specific data augmentations, our approach makes minimal assumptions about the task, yet it achieves competitive results on the challenging COCO dataset, compared to highly specialized and well optimized detection algorithms.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Artificial Intelligence,Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/chenPix2seqLanguageModeling2022.pdf}
 }
 
 @inproceedings{chowDEMONSintegratedframework2016,
@@ -225,6 +298,24 @@
   abstract = {Text data augmentation is an effective strategy for overcoming the challenge of limited sample sizes in many natural language processing (NLP) tasks. This challenge is especially prominent in the few-shot learning scenario, where the data in the target domain is generally much scarcer and of lowered quality. A natural and widely-used strategy to mitigate such challenges is to perform data augmentation to better capture the data invariance and increase the sample size. However, current text data augmentation methods either can't ensure the correct labeling of the generated data (lacking faithfulness) or can't ensure sufficient diversity in the generated data (lacking compactness), or both. Inspired by the recent success of large language models, especially the development of ChatGPT, which demonstrated improved language comprehension abilities, in this work, we propose a text data augmentation approach based on ChatGPT (named AugGPT). AugGPT rephrases each sentence in the training samples into multiple conceptually similar but semantically different samples. The augmented samples can then be used in downstream model training. Experiment results on few-shot learning text classification tasks show the superior performance of the proposed AugGPT approach over state-of-the-art text data augmentation methods in terms of testing accuracy and distribution of the augmented samples.},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/daiAugGPTLeveragingChatGPT.pdf}
+}
+
+@misc{devlinBERTPretrainingDeep2019,
+  title = {{{BERT}}: {{Pre-training}} of {{Deep Bidirectional Transformers}} for {{Language Understanding}}},
+  shorttitle = {{{BERT}}},
+  author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+  year = {2019},
+  month = may,
+  number = {arXiv:1810.04805},
+  eprint = {1810.04805},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models (Peters et al., 2018a; Radford et al., 2018), BERT is designed to pretrain deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be finetuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial taskspecific architecture modifications.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language},
+  file = {/Users/reyvababtista/Projects/Papers/devlinBERTPretrainingDeep2019.pdf}
 }
 
 @article{devriesSmartphoneBasedEcologicalMomentary2021,
@@ -386,6 +477,23 @@
   file = {/Users/reyvababtista/Projects/Papers/gaoCollabCoderGPTPoweredWorkflow2023.pdf}
 }
 
+@misc{goodfellowGenerativeAdversarialNetworks2014,
+  title = {Generative {{Adversarial Networks}}},
+  author = {Goodfellow, Ian J. and {Pouget-Abadie}, Jean and Mirza, Mehdi and Xu, Bing and {Warde-Farley}, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  year = {2014},
+  month = jun,
+  number = {arXiv:1406.2661},
+  eprint = {1406.2661},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {We propose a new framework for estimating generative models via an adversarial process, in which we simultaneously train two models: a generative model G that captures the data distribution, and a discriminative model D that estimates the probability that a sample came from the training data rather than G. The training procedure for G is to maximize the probability of D making a mistake. This framework corresponds to a minimax two-player game. In the space of arbitrary functions G and D, a unique solution exists, with G recovering the training data distribution and D equal to 1/2 everywhere. In the case where G and D are defined by multilayer perceptrons, the entire system can be trained with backpropagation. There is no need for any Markov chains or unrolled approximate inference networks during either training or generation of samples. Experiments demonstrate the potential of the framework through qualitative and quantitative evaluation of the generated samples.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/goodfellowGenerativeAdversarialNetworks2014.pdf}
+}
+
 @inproceedings{guoDetectionOccludedRoad2019,
   title = {Detection of {{Occluded Road Signs}} on {{Autonomous Driving Vehicles}}},
   booktitle = {2019 {{IEEE International Conference}} on {{Multimedia}} and {{Expo}} ({{ICME}})},
@@ -412,6 +520,14 @@
   number = {1},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/hallIntroductionMultisensorData1997.pdf}
+}
+
+@article{hanTransformerTransformer,
+  title = {Transformer in {{Transformer}}},
+  author = {Han, Kai and Xiao, An and Wu, Enhua and Guo, Jianyuan and Xu, Chunjing and Wang, Yunhe},
+  abstract = {Transformer is a new kind of neural architecture which encodes the input data as powerful features via the attention mechanism. Basically, the visual transformers first divide the input images into several local patches and then calculate both representations and their relationship. Since natural images are of high complexity with abundant detail and color information, the granularity of the patch dividing is not fine enough for excavating features of objects in different scales and locations. In this paper, we point out that the attention inside these local patches are also essential for building visual transformers with high performance and we explore a new architecture, namely, Transformer iN Transformer (TNT). Specifically, we regard the local patches (e.g., 16\texttimes 16) as ``visual sentences'' and present to further divide them into smaller patches (e.g., 4\texttimes 4) as ``visual words''. The attention of each word will be calculated with other words in the given visual sentence with negligible computational costs. Features of both words and sentences will be aggregated to enhance the representation ability. Experiments on several benchmarks demonstrate the effectiveness of the proposed TNT architecture, e.g., we achieve an 81.5\% top-1 accuracy on the ImageNet, which is about 1.7\% higher than that of the state-of-the-art visual transformer with similar computational cost. The PyTorch code is available at https://github.com/huawei-noah/CV-Backbones, and the MindSpore code is available at https://gitee.com/mindspore/models/ tree/master/research/cv/TNT.},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/hanTransformerTransformer.pdf}
 }
 
 @article{harrisResearchelectronicdata2009,
@@ -563,6 +679,24 @@
   file = {/Users/reyvababtista/Projects/Papers/huSqueezeandExcitationNetworks2019.pdf}
 }
 
+@misc{jaeglePerceiverIOGeneral2022,
+  title = {Perceiver {{IO}}: {{A General Architecture}} for {{Structured Inputs}} \& {{Outputs}}},
+  shorttitle = {Perceiver {{IO}}},
+  author = {Jaegle, Andrew and Borgeaud, Sebastian and Alayrac, Jean-Baptiste and Doersch, Carl and Ionescu, Catalin and Ding, David and Koppula, Skanda and Zoran, Daniel and Brock, Andrew and Shelhamer, Evan and H{\'e}naff, Olivier and Botvinick, Matthew M. and Zisserman, Andrew and Vinyals, Oriol and Carreira, Jo{\=a}o},
+  year = {2022},
+  month = mar,
+  number = {arXiv:2107.14795},
+  eprint = {2107.14795},
+  primaryclass = {cs, eess},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {A central goal of machine learning is the development of systems that can solve many problems in as many data domains as possible. Current architectures, however, cannot be applied beyond a small set of stereotyped settings, as they bake in domain \& task assumptions or scale poorly to large inputs or outputs. In this work, we propose Perceiver IO, a general-purpose architecture that handles data from arbitrary settings while scaling linearly with the size of inputs and outputs. Our model augments the Perceiver with a flexible querying mechanism that enables outputs of various sizes and semantics, doing away with the need for task-specific architecture engineering. The same architecture achieves strong results on tasks spanning natural language and visual understanding, multi-task and multi-modal reasoning, and StarCraft II. As highlights, Perceiver IO outperforms a Transformer-based BERT baseline on the GLUE language benchmark despite removing input tokenization and achieves state-of-the-art performance on Sintel optical flow estimation with no explicit mechanisms for multiscale correspondence.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language,Computer Science - Computer Vision and Pattern Recognition,Computer Science - Machine Learning,Computer Science - Sound,Electrical Engineering and Systems Science - Audio and Speech Processing},
+  file = {/Users/reyvababtista/Projects/Papers/jaeglePerceiverIOGeneral2022.pdf}
+}
+
 @article{jiangImprovedYOLOv52022,
   title = {Improved {{YOLO}} v5 with Balanced Feature Pyramid and Attention Module for Traffic Sign Detection},
   author = {Jiang, Linfeng and Liu, Hui and Zhu, Hong and Zhang, Guangjian},
@@ -596,6 +730,46 @@
   langid = {english},
   keywords = {Computer Science - Computer Vision and Pattern Recognition},
   file = {/Users/reyvababtista/Projects/Papers/jiaoSurveyDeepLearningbased2019.pdf}
+}
+
+@misc{kingmaAutoEncodingVariationalBayes2022,
+  title = {Auto-{{Encoding Variational Bayes}}},
+  author = {Kingma, Diederik P. and Welling, Max},
+  year = {2022},
+  month = dec,
+  number = {arXiv:1312.6114},
+  eprint = {1312.6114},
+  primaryclass = {cs, stat},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {How can we perform efficient inference and learning in directed probabilistic models, in the presence of continuous latent variables with intractable posterior distributions, and large datasets? We introduce a stochastic variational inference and learning algorithm that scales to large datasets and, under some mild differentiability conditions, even works in the intractable case. Our contributions are two-fold. First, we show that a reparameterization of the variational lower bound yields a lower bound estimator that can be straightforwardly optimized using standard stochastic gradient methods. Second, we show that for i.i.d. datasets with continuous latent variables per datapoint, posterior inference can be made especially efficient by fitting an approximate inference model (also called a recognition model) to the intractable posterior using the proposed lower bound estimator. Theoretical advantages are reflected in experimental results.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Machine Learning,Statistics - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/kingmaAutoEncodingVariationalBayes2022.pdf}
+}
+
+@article{kochSiameseNeuralNetworks,
+  title = {Siamese {{Neural Networks}} for {{One-shot Image Recognition}}},
+  author = {Koch, Gregory and Zemel, Richard and Salakhutdinov, Ruslan},
+  abstract = {The process of learning good features for machine learning applications can be very computationally expensive and may prove difficult in cases where little data is available. A prototypical example of this is the one-shot learning setting, in which we must correctly make predictions given only a single example of each new class. In this paper, we explore a method for learning siamese neural networks which employ a unique structure to naturally rank similarity between inputs. Once a network has been tuned, we can then capitalize on powerful discriminative features to generalize the predictive power of the network not just to new data, but to entirely new classes from unknown distributions. Using a convolutional architecture, we are able to achieve strong results which exceed those of other deep learning models with near state-of-the-art performance on one-shot classification tasks.},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/kochSiameseNeuralNetworks.pdf}
+}
+
+@article{kohonenselforganizingmap1990,
+  title = {The Self-Organizing Map},
+  author = {Kohonen, T.},
+  year = {Sept./1990},
+  journal = {Proc. IEEE},
+  volume = {78},
+  number = {9},
+  pages = {1464--1480},
+  issn = {00189219},
+  doi = {10.1109/5.58325},
+  urldate = {2023-09-05},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/kohonenselforganizingmap1990.pdf}
 }
 
 @article{kosterSnakemakescalablebioinformatics2012,
@@ -918,6 +1092,14 @@
   howpublished = {https://github.com/open-mmlab/mmocr}
 }
 
+@article{orrCentreCognitiveScience,
+  title = {Centre for {{Cognitive Science}}, {{University}} of {{Edinburgh}}, 2, {{Buccleuch Place}}, {{Edinburgh EH8 9LW}}, {{Scotland April}} 1996},
+  author = {Orr, Mark J L},
+  abstract = {This document is an introduction to radial basis function (RBF) networks, a type of arti cial neural network for application to problems of supervised learning (e.g. regression, classi cation and time series prediction). It is now only available in PostScript2 (an older and now unsupported hyper-text version3 may be available for a while longer).},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/orrCentreCognitiveScience.pdf}
+}
+
 @misc{paddlepaddlePaddleOCR2023,
   title = {{{PaddleOCR}}},
   author = {{PaddlePaddle}},
@@ -1011,6 +1193,24 @@
   file = {/Users/reyvababtista/Projects/Papers/rogersDeepLearningYour2019.pdf}
 }
 
+@misc{ronnebergerUNetConvolutionalNetworks2015,
+  title = {U-{{Net}}: {{Convolutional Networks}} for {{Biomedical Image Segmentation}}},
+  shorttitle = {U-{{Net}}},
+  author = {Ronneberger, Olaf and Fischer, Philipp and Brox, Thomas},
+  year = {2015},
+  month = may,
+  number = {arXiv:1505.04597},
+  eprint = {1505.04597},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {There is large consent that successful training of deep networks requires many thousand annotated training samples. In this paper, we present a network and training strategy that relies on the strong use of data augmentation to use the available annotated samples more efficiently. The architecture consists of a contracting path to capture context and a symmetric expanding path that enables precise localization. We show that such a network can be trained end-to-end from very few images and outperforms the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks. Using the same network trained on transmitted light microscopy images (phase contrast and DIC) we won the ISBI cell tracking challenge 2015 in these categories by a large margin. Moreover, the network is fast. Segmentation of a 512x512 image takes less than a second on a recent GPU. The full implementation (based on Caffe) and the trained networks are available at http://lmb.informatik.uni-freiburg.de/people/ronneber/u-net.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/Users/reyvababtista/Projects/Papers/ronnebergerUNetConvolutionalNetworks2015.pdf}
+}
+
 @misc{ropenscipdftools2023,
   title = {Pdftools},
   author = {{rOpenSci}},
@@ -1029,6 +1229,23 @@
   journal = {tesseract},
   urldate = {2023-05-04},
   howpublished = {https://docs.ropensci.org/tesseract/}
+}
+
+@misc{sabourDynamicRoutingCapsules2017,
+  title = {Dynamic {{Routing Between Capsules}}},
+  author = {Sabour, Sara and Frosst, Nicholas and Hinton, Geoffrey E.},
+  year = {2017},
+  month = nov,
+  number = {arXiv:1710.09829},
+  eprint = {1710.09829},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {A capsule is a group of neurons whose activity vector represents the instantiation parameters of a specific type of entity such as an object or an object part. We use the length of the activity vector to represent the probability that the entity exists and its orientation to represent the instantiation parameters. Active capsules at one level make predictions, via transformation matrices, for the instantiation parameters of higher-level capsules. When multiple predictions agree, a higher level capsule becomes active. We show that a discrimininatively trained, multi-layer capsule system achieves state-of-the-art performance on MNIST and is considerably better than a convolutional net at recognizing highly overlapping digits. To achieve these results we use an iterative routing-by-agreement mechanism: A lower-level capsule prefers to send its output to higher level capsules whose activity vectors have a big scalar product with the prediction coming from the lower-level capsule.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computer Vision and Pattern Recognition},
+  file = {/Users/reyvababtista/Projects/Papers/sabourDynamicRoutingCapsules2017.pdf}
 }
 
 @misc{schickToolformerLanguageModels2023,
@@ -1081,6 +1298,23 @@
   abstract = {Abstract             The ubiquity of personal digital devices offers unprecedented opportunities to study human behavior. Current state-of-the-art methods quantify physical activity using ``activity counts,'' a measure which overlooks specific types of physical activities. We propose a walking recognition method for sub-second tri-axial accelerometer data, in which activity classification is based on the inherent features of walking: intensity, periodicity, and duration. We validate our method against 20 publicly available, annotated datasets on walking activity data collected at various body locations (thigh, waist, chest, arm, wrist). We demonstrate that our method can estimate walking periods with high sensitivity and specificity: average sensitivity ranged between 0.92 and 0.97 across various body locations, and average specificity for common daily activities was typically above 0.95. We also assess the method's algorithmic fairness to demographic and anthropometric variables and measurement contexts (body location, environment). Finally, we release our method as open-source software in Python and MATLAB.},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/straczkiewiczonesizefitsmostwalkingrecognition2023.pdf}
+}
+
+@misc{sutskeverSequenceSequenceLearning2014,
+  title = {Sequence to {{Sequence Learning}} with {{Neural Networks}}},
+  author = {Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V.},
+  year = {2014},
+  month = dec,
+  number = {arXiv:1409.3215},
+  eprint = {1409.3215},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT'14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difficulty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM's performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/sutskeverSequenceSequenceLearning2014.pdf}
 }
 
 @article{tabernikDeepLearningLargeScale2020,
@@ -1210,6 +1444,23 @@
   isbn = {978-1-4503-5620-6},
   langid = {english},
   file = {/Users/reyvababtista/Projects/Papers/vaizmanExtraSensoryAppData2018.pdf}
+}
+
+@misc{vaswaniAttentionAllYou2023,
+  title = {Attention {{Is All You Need}}},
+  author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+  year = {2023},
+  month = aug,
+  number = {arXiv:1706.03762},
+  eprint = {1706.03762},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-09-05},
+  abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.},
+  archiveprefix = {arxiv},
+  langid = {english},
+  keywords = {Computer Science - Computation and Language,Computer Science - Machine Learning},
+  file = {/Users/reyvababtista/Projects/Papers/vaswaniAttentionAllYou2023.pdf}
 }
 
 @article{vegaReproducibleAnalysisPipeline2021,
@@ -1383,6 +1634,22 @@
   langid = {english},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning},
   file = {/Users/reyvababtista/Projects/Papers/zhaTableGPTUnifyingTables2023.pdf}
+}
+
+@article{zhouGraphneuralnetworks2020,
+  title = {Graph Neural Networks: {{A}} Review of Methods and Applications},
+  shorttitle = {Graph Neural Networks},
+  author = {Zhou, Jie and Cui, Ganqu and Hu, Shengding and Zhang, Zhengyan and Yang, Cheng and Liu, Zhiyuan and Wang, Lifeng and Li, Changcheng and Sun, Maosong},
+  year = {2020},
+  journal = {AI Open},
+  volume = {1},
+  pages = {57--81},
+  issn = {26666510},
+  doi = {10.1016/j.aiopen.2021.01.001},
+  urldate = {2023-09-05},
+  abstract = {Lots of learning tasks require dealing with graph data which contains rich relation information among elements. Modeling physics systems, learning molecular fingerprints, predicting protein interface, and classifying diseases demand a model to learn from graph inputs. In other domains such as learning from non-structural data like texts and images, reasoning on extracted structures (like the dependency trees of sentences and the scene graphs of images) is an important research topic which also needs graph reasoning models. Graph neural networks (GNNs) are neural models that capture the dependence of graphs via message passing between the nodes of graphs. In recent years, variants of GNNs such as graph convolutional network (GCN), graph attention network (GAT), graph recurrent network (GRN) have demonstrated ground-breaking performances on many deep learning tasks. In this survey, we propose a general design pipeline for GNN models and discuss the variants of each component, systematically categorize the applications, and propose four open problems for future research.},
+  langid = {english},
+  file = {/Users/reyvababtista/Projects/Papers/zhouGraphneuralnetworks2020.pdf}
 }
 
 @inproceedings{zhuTrafficSignDetectionClassification2016,
