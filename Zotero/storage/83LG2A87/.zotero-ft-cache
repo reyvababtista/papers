@@ -1,0 +1,93 @@
+
+Skip to main content
+Cornell University
+We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate
+arxiv logo > cs > arXiv:2105.04489
+
+Help | Advanced Search
+Search
+Computer Science > Computer Vision and Pattern Recognition
+(cs)
+[Submitted on 10 May 2021]
+Title: Spoken Moments: Learning Joint Audio-Visual Representations from Video Descriptions
+Authors: Mathew Monfort , SouYoung Jin , Alexander Liu , David Harwath , Rogerio Feris , James Glass , Aude Oliva
+Download a PDF of the paper titled Spoken Moments: Learning Joint Audio-Visual Representations from Video Descriptions, by Mathew Monfort and 6 other authors
+Download PDF
+
+    Abstract: When people observe events, they are able to abstract key information and build concise summaries of what is happening. These summaries include contextual and semantic information describing the important high-level details (what, where, who and how) of the observed event and exclude background information that is deemed unimportant to the observer. With this in mind, the descriptions people generate for videos of different dynamic events can greatly improve our understanding of the key information of interest in each video. These descriptions can be captured in captions that provide expanded attributes for video labeling (e.g. actions/objects/scenes/sentiment/etc.) while allowing us to gain new insight into what people find important or necessary to summarize specific events. Existing caption datasets for video understanding are either small in scale or restricted to a specific domain. To address this, we present the Spoken Moments (S-MiT) dataset of 500k spoken captions each attributed to a unique short video depicting a broad range of different events. We collect our descriptions using audio recordings to ensure that they remain as natural and concise as possible while allowing us to scale the size of a large classification dataset. In order to utilize our proposed dataset, we present a novel Adaptive Mean Margin (AMM) approach to contrastive learning and evaluate our models on video/caption retrieval on multiple datasets. We show that our AMM approach consistently improves our results and that models trained on our Spoken Moments dataset generalize better than those trained on other video-caption datasets. 
+
+Comments: 	To appear at CVPR 2021
+Subjects: 	Computer Vision and Pattern Recognition (cs.CV) ; Computation and Language (cs.CL); Machine Learning (cs.LG); Sound (cs.SD); Audio and Speech Processing (eess.AS)
+Cite as: 	arXiv:2105.04489 [cs.CV]
+  	(or arXiv:2105.04489v1 [cs.CV] for this version)
+  	https://doi.org/10.48550/arXiv.2105.04489
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: SouYoung Jin [ view email ]
+[v1] Mon, 10 May 2021 16:30:46 UTC (34,675 KB)
+Full-text links:
+Access Paper:
+
+    Download a PDF of the paper titled Spoken Moments: Learning Joint Audio-Visual Representations from Video Descriptions, by Mathew Monfort and 6 other authors
+    Download PDF
+    PostScript
+    Other Formats 
+
+( view license )
+Current browse context:
+cs.CV
+< prev   |   next >
+new | recent | 2105
+Change to browse by:
+cs
+cs.CL
+cs.LG
+cs.SD
+eess
+eess.AS
+References & Citations
+
+    NASA ADS
+    Google Scholar
+    Semantic Scholar
+
+DBLP - CS Bibliography
+listing | bibtex
+Mathew Monfort
+SouYoung Jin
+Alexander H. Liu
+David Harwath
+James R. Glass
+…
+a export BibTeX citation Loading...
+Bookmark
+BibSonomy logo Reddit logo
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+    About
+    Help
+
+    contact arXiv Click here to contact arXiv Contact
+    subscribe to arXiv mailings Click here to subscribe Subscribe
+
+    Copyright
+    Privacy Policy
+
+    Web Accessibility Assistance
+
+    arXiv Operational Status
+    Get status notifications via email or slack
+

@@ -1,0 +1,93 @@
+
+Skip to main content
+Cornell University
+We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate
+arxiv logo > cs > arXiv:2006.16241
+
+Help | Advanced Search
+Search
+Computer Science > Computer Vision and Pattern Recognition
+(cs)
+[Submitted on 29 Jun 2020 ( v1 ), last revised 24 Jul 2021 (this version, v3)]
+Title: The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization
+Authors: Dan Hendrycks , Steven Basart , Norman Mu , Saurav Kadavath , Frank Wang , Evan Dorundo , Rahul Desai , Tyler Zhu , Samyak Parajuli , Mike Guo , Dawn Song , Jacob Steinhardt , Justin Gilmer
+Download a PDF of the paper titled The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization, by Dan Hendrycks and 12 other authors
+Download PDF
+
+    Abstract: We introduce four new real-world distribution shift datasets consisting of changes in image style, image blurriness, geographic location, camera operation, and more. With our new datasets, we take stock of previously proposed methods for improving out-of-distribution robustness and put them to the test. We find that using larger models and artificial data augmentations can improve robustness on real-world distribution shifts, contrary to claims in prior work. We find improvements in artificial robustness benchmarks can transfer to real-world distribution shifts, contrary to claims in prior work. Motivated by our observation that data augmentations can help with real-world distribution shifts, we also introduce a new data augmentation method which advances the state-of-the-art and outperforms models pretrained with 1000 times more labeled data. Overall we find that some methods consistently help with distribution shifts in texture and local image statistics, but these methods do not help with some other distribution shifts like geographic changes. Our results show that future research must study multiple distribution shifts simultaneously, as we demonstrate that no evaluated method consistently improves robustness. 
+
+Comments: 	ICCV 2021; Datasets, code, and models available at this https URL
+Subjects: 	Computer Vision and Pattern Recognition (cs.CV) ; Machine Learning (cs.LG); Machine Learning (stat.ML)
+Cite as: 	arXiv:2006.16241 [cs.CV]
+  	(or arXiv:2006.16241v3 [cs.CV] for this version)
+  	https://doi.org/10.48550/arXiv.2006.16241
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Dan Hendrycks [ view email ]
+[v1] Mon, 29 Jun 2020 17:59:10 UTC (2,977 KB)
+[v2] Thu, 13 Aug 2020 15:43:39 UTC (2,977 KB)
+[v3] Sat, 24 Jul 2021 04:28:58 UTC (7,908 KB)
+Full-text links:
+Access Paper:
+
+    Download a PDF of the paper titled The Many Faces of Robustness: A Critical Analysis of Out-of-Distribution Generalization, by Dan Hendrycks and 12 other authors
+    Download PDF
+    PostScript
+    Other Formats 
+
+( view license )
+Current browse context:
+cs.CV
+< prev   |   next >
+new | recent | 2006
+Change to browse by:
+cs
+cs.LG
+stat
+stat.ML
+References & Citations
+
+    NASA ADS
+    Google Scholar
+    Semantic Scholar
+
+DBLP - CS Bibliography
+listing | bibtex
+Dan Hendrycks
+Steven Basart
+Norman Mu
+Saurav Kadavath
+Frank Wang
+…
+a export BibTeX citation Loading...
+Bookmark
+BibSonomy logo Reddit logo
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+    About
+    Help
+
+    contact arXiv Click here to contact arXiv Contact
+    subscribe to arXiv mailings Click here to subscribe Subscribe
+
+    Copyright
+    Privacy Policy
+
+    Web Accessibility Assistance
+
+    arXiv Operational Status
+    Get status notifications via email or slack
+

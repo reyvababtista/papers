@@ -1,0 +1,91 @@
+
+Skip to main content
+Cornell University
+We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate
+arxiv logo > cs > arXiv:1505.04870
+
+Help | Advanced Search
+Search
+Computer Science > Computer Vision and Pattern Recognition
+(cs)
+[Submitted on 19 May 2015 ( v1 ), last revised 19 Sep 2016 (this version, v4)]
+Title: Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models
+Authors: Bryan A. Plummer , Liwei Wang , Chris M. Cervantes , Juan C. Caicedo , Julia Hockenmaier , Svetlana Lazebnik
+Download a PDF of the paper titled Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models, by Bryan A. Plummer and 5 other authors
+Download PDF
+
+    Abstract: The Flickr30k dataset has become a standard benchmark for sentence-based image description. This paper presents Flickr30k Entities, which augments the 158k captions from Flickr30k with 244k coreference chains, linking mentions of the same entities across different captions for the same image, and associating them with 276k manually annotated bounding boxes. Such annotations are essential for continued progress in automatic image description and grounded language understanding. They enable us to define a new benchmark for localization of textual entity mentions in an image. We present a strong baseline for this task that combines an image-text embedding, detectors for common objects, a color classifier, and a bias towards selecting larger objects. While our baseline rivals in accuracy more complex state-of-the-art models, we show that its gains cannot be easily parlayed into improvements on such tasks as image-sentence retrieval, thus underlining the limitations of current methods and the need for further research. 
+
+Subjects: 	Computer Vision and Pattern Recognition (cs.CV) ; Computation and Language (cs.CL)
+Cite as: 	arXiv:1505.04870 [cs.CV]
+  	(or arXiv:1505.04870v4 [cs.CV] for this version)
+  	https://doi.org/10.48550/arXiv.1505.04870
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Bryan Plummer [ view email ]
+[v1] Tue, 19 May 2015 04:46:03 UTC (2,695 KB)
+[v2] Mon, 5 Oct 2015 22:17:45 UTC (3,476 KB)
+[v3] Fri, 15 Apr 2016 14:58:37 UTC (4,477 KB)
+[v4] Mon, 19 Sep 2016 20:20:42 UTC (4,995 KB)
+Full-text links:
+Access Paper:
+
+    Download a PDF of the paper titled Flickr30k Entities: Collecting Region-to-Phrase Correspondences for Richer Image-to-Sentence Models, by Bryan A. Plummer and 5 other authors
+    Download PDF
+    PostScript
+    Other Formats 
+
+( view license )
+Current browse context:
+cs.CV
+< prev   |   next >
+new | recent | 1505
+Change to browse by:
+cs
+cs.CL
+References & Citations
+
+    NASA ADS
+    Google Scholar
+    Semantic Scholar
+
+DBLP - CS Bibliography
+listing | bibtex
+Bryan Plummer
+Bryan A. Plummer
+Liwei Wang
+Chris Cervantes
+Chris M. Cervantes
+…
+a export BibTeX citation Loading...
+Bookmark
+BibSonomy logo Reddit logo
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+    About
+    Help
+
+    contact arXiv Click here to contact arXiv Contact
+    subscribe to arXiv mailings Click here to subscribe Subscribe
+
+    Copyright
+    Privacy Policy
+
+    Web Accessibility Assistance
+
+    arXiv Operational Status
+    Get status notifications via email or slack
+

@@ -1,0 +1,89 @@
+
+Skip to main content
+Cornell University
+We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate
+arxiv logo > cs > arXiv:2007.00398
+
+Help | Advanced Search
+Search
+Computer Science > Computer Vision and Pattern Recognition
+(cs)
+[Submitted on 1 Jul 2020 ( v1 ), last revised 5 Jan 2021 (this version, v3)]
+Title: DocVQA: A Dataset for VQA on Document Images
+Authors: Minesh Mathew , Dimosthenis Karatzas , C.V. Jawahar
+Download a PDF of the paper titled DocVQA: A Dataset for VQA on Document Images, by Minesh Mathew and 2 other authors
+Download PDF
+
+    Abstract: We present a new dataset for Visual Question Answering (VQA) on document images called DocVQA. The dataset consists of 50,000 questions defined on 12,000+ document images. Detailed analysis of the dataset in comparison with similar datasets for VQA and reading comprehension is presented. We report several baseline results by adopting existing VQA and reading comprehension models. Although the existing models perform reasonably well on certain types of questions, there is large performance gap compared to human performance (94.36% accuracy). The models need to improve specifically on questions where understanding structure of the document is crucial. The dataset, code and leaderboard are available at this http URL 
+
+Comments: 	accepted at WACV 2021
+Subjects: 	Computer Vision and Pattern Recognition (cs.CV) ; Information Retrieval (cs.IR)
+Cite as: 	arXiv:2007.00398 [cs.CV]
+  	(or arXiv:2007.00398v3 [cs.CV] for this version)
+  	https://doi.org/10.48550/arXiv.2007.00398
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Minesh Mathew [ view email ]
+[v1] Wed, 1 Jul 2020 11:37:40 UTC (9,113 KB)
+[v2] Sun, 13 Dec 2020 04:13:51 UTC (11,929 KB)
+[v3] Tue, 5 Jan 2021 05:39:39 UTC (11,751 KB)
+Full-text links:
+Access Paper:
+
+    Download a PDF of the paper titled DocVQA: A Dataset for VQA on Document Images, by Minesh Mathew and 2 other authors
+    Download PDF
+    PostScript
+    Other Formats 
+
+( view license )
+Current browse context:
+cs.CV
+< prev   |   next >
+new | recent | 2007
+Change to browse by:
+cs
+cs.IR
+References & Citations
+
+    NASA ADS
+    Google Scholar
+    Semantic Scholar
+
+DBLP - CS Bibliography
+listing | bibtex
+Minesh Mathew
+Dimosthenis Karatzas
+R. Manmatha
+C. V. Jawahar
+a export BibTeX citation Loading...
+Bookmark
+BibSonomy logo Reddit logo
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+    About
+    Help
+
+    contact arXiv Click here to contact arXiv Contact
+    subscribe to arXiv mailings Click here to subscribe Subscribe
+
+    Copyright
+    Privacy Policy
+
+    Web Accessibility Assistance
+
+    arXiv Operational Status
+    Get status notifications via email or slack
+

@@ -1,0 +1,89 @@
+
+Skip to main content
+Cornell University
+We gratefully acknowledge support from the Simons Foundation, member institutions , and all contributors. Donate
+arxiv logo > cs > arXiv:2010.04295
+
+Help | Advanced Search
+Search
+Computer Science > Machine Learning
+(cs)
+[Submitted on 8 Oct 2020]
+Title: Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements
+Authors: Yang Li , Gang Li , Luheng He , Jingjie Zheng , Hong Li , Zhiwei Guan
+Download a PDF of the paper titled Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements, by Yang Li and 5 other authors
+Download PDF
+
+    Abstract: Natural language descriptions of user interface (UI) elements such as alternative text are crucial for accessibility and language-based interaction in general. Yet, these descriptions are constantly missing in mobile UIs. We propose widget captioning, a novel task for automatically generating language descriptions for UI elements from multimodal input including both the image and the structural representations of user interfaces. We collected a large-scale dataset for widget captioning with crowdsourcing. Our dataset contains 162,859 language phrases created by human workers for annotating 61,285 UI elements across 21,750 unique UI screens. We thoroughly analyze the dataset, and train and evaluate a set of deep model configurations to investigate how each feature modality as well as the choice of learning strategies impact the quality of predicted captions. The task formulation and the dataset as well as our benchmark models contribute a solid basis for this novel multimodal captioning task that connects language and user interfaces. 
+
+Comments: 	16 pages, EMNLP 2020
+Subjects: 	Machine Learning (cs.LG) ; Artificial Intelligence (cs.AI); Computation and Language (cs.CL); Human-Computer Interaction (cs.HC)
+Cite as: 	arXiv:2010.04295 [cs.LG]
+  	(or arXiv:2010.04295v1 [cs.LG] for this version)
+  	https://doi.org/10.48550/arXiv.2010.04295
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Yang Li [ view email ]
+[v1] Thu, 8 Oct 2020 22:56:03 UTC (23,620 KB)
+Full-text links:
+Access Paper:
+
+    Download a PDF of the paper titled Widget Captioning: Generating Natural Language Description for Mobile User Interface Elements, by Yang Li and 5 other authors
+    Download PDF
+    PostScript
+    Other Formats 
+
+( view license )
+Current browse context:
+cs.LG
+< prev   |   next >
+new | recent | 2010
+Change to browse by:
+cs
+cs.AI
+cs.CL
+cs.HC
+References & Citations
+
+    NASA ADS
+    Google Scholar
+    Semantic Scholar
+
+DBLP - CS Bibliography
+listing | bibtex
+Yang Li
+Gang Li
+Luheng He
+Hong Li
+a export BibTeX citation Loading...
+Bookmark
+BibSonomy logo Reddit logo
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer ( What is the Explorer? )
+Litmaps Toggle
+Litmaps ( What is Litmaps? )
+scite.ai Toggle
+scite Smart Citations ( What are Smart Citations? )
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax ( What is MathJax? )
+
+    About
+    Help
+
+    contact arXiv Click here to contact arXiv Contact
+    subscribe to arXiv mailings Click here to subscribe Subscribe
+
+    Copyright
+    Privacy Policy
+
+    Web Accessibility Assistance
+
+    arXiv Operational Status
+    Get status notifications via email or slack
+
